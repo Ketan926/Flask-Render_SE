@@ -5,7 +5,7 @@ import yfinance as yf
 from sklearn.preprocessing import MinMaxScaler
 import tensorflow as tf
 import datetime
-
+import os
 app = Flask(__name__)
 
 # Load the pre-trained Bi-LSTM model
